@@ -1,0 +1,74 @@
+<script type="text/javascript">
+	
+	var x = {"name": "Linh",
+			 "age": 23,
+			 "hoc": {"tieuhoc": "gioi",
+			 		"trunghoc": "iha",
+			 		"daihoc":  "dot",
+					},
+			"choi": "sieugioi",		
+
+			};
+
+
+	var cars = new Array();
+	cars[0] = 'honda';
+	cars[1] = 'civic';
+	cars[2] = 'mec';
+
+	
+
+	var numbs = new Array();
+	for(i = 0; i < 10; i++) {
+		numbs[i] = Math.random();
+	}
+
+	
+var names = ["linh", "Hue", "Tuyet"]
+
+
+var numbers= new Array();
+for(i=0; i<10; i++){
+	numbers[i]=i;
+}
+
+
+function print(x)
+{
+	for(i=0; i<x.length; i++){
+		document.write(x[i]+"<br>");
+	}
+
+	document.write("endfor");
+
+}
+//print(names);
+/*
+print(names);
+print(numbs);
+print(numbers);
+print(cars);
+*/
+
+function soTiep(x){
+
+	for(i=0; i<20; i++){
+		//document.write("HERE" + x + " "+i + "<br ");
+	
+		//document.write(i);
+		document.write(x+i);
+		document.write(" ");
+	}
+	//document.write("endhehe");
+	document.write("<br>");
+}
+
+for(j=0; j<20; j++){
+	soTiep(j);
+}
+
+//soTiep(0);
+//soTiep(1);
+
+
+</script>

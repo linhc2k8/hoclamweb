@@ -1,0 +1,32 @@
+<script type="text/javascript">
+	var x = 1;
+	
+	function nana(x) {
+		x=x+1;
+		return x;
+	}
+
+	function nana2(x) {
+		return x+1;
+	}
+
+	function nana3(x ,y) {
+		return nana(x) + nana2(y);
+	}
+
+	function nana4(x)
+{
+	x=x*x;
+	return x;
+}
+
+	function nana5(x,y){
+		return 2*nana4(x)+ nana(y);
+	}
+	
+	x = nana5(3,4);
+
+	var x = 7;
+	alert(x);
+
+</script>

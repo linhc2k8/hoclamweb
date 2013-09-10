@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Homepage</title>
+<script type="text/javascript">
+	function sumOf(numberone, numbertwo)
+	{
+		ketqua = parseInt(numberone,10) + parseInt(numbertwo,10);
+
+		alert(ketqua);
+	}
+//function inKetQua()
+{
+
+//sumOf(document.getElementById("na").value, document.getElementById("ma").value);	
+}
+
+</script>
+</head>
+
+<body>
+<form>
+First number: <input type="number" name="Number one" id="na"><br>
+Second number: <input type="number" name="Number two" id="ma">
+</form>
+
+<p id="nana">click this button to see the result</p>
+<button onclick="sumOf(document.getElementById("na").value, document.getElementById("ma").value)">click here</button>
+

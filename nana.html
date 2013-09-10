@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="styles.css">
+
+
+</head>
+
+<body style="background-color:yellow;">
+<h1 style="color:blue;margin-left:20px;">techapthat</h1>
+<h2 style="background-color:red;">ngotechapnhatquadat</h2>
+<p style="font-family:arial;text-align:center;color:red;font-size:20px">nanananana</p>
+<p>an image: <img src="http://k14.vcmedia.vn/k:thumb_w/600/fZWcsjiQcccccccccccc366AAdFBMf/Image/19/nini/pttm/fa-pttm-03-90528/hot-girl-viet-va-nhung-nghi-an-dao-keo-khi-con-qua-tre.JPG" alt="Smiley face" width="32" height="32"></p>
+<table border="1">
+<tr>
+	<th>header 1</th>
+	<th>header 2</th>
+</tr>
+	<tr>
+		<td>row 1, cell 1</td>
+		<td>row 1, cell 2</td>
+			</tr>
+			<tr>
+				<td>row 2, cell 1</td>
+				<td>row 2, cell 2</td>
+			</tr>
+</table>
+<div id="container" style="width:500px">
+<div id="header" style="background-color:#FFD700;">
+	<h1 style="margin-bottom:0"> Main Title of web page</h1>
+</div>
+<div id="menu" style="background-color:#FFD700;height:200px;width:100px;float:left;">
+	<b>Menu</b><br>
+	HTML<br>
+	CSS<br>
+	JAvascript
+</div>
+<div id="content" style="background-color:#EEEEEE;height:200px;width:400px;float:left;">
+	Content goes here
+</div>
+<div id="footer" style="background-color:#FEA500;clear:both;text-align:center;"></div>
+copyright: W3schools com</div>
+</div>
+
+
+<p>Click the button to display what day it is today</p>
+<button onclick="myFunction()">Try it</button>
+<p id="demo"></p>
+
+<script type="text/javascript">
+	function myFunction()
+	{
+		var x;
+		var d=new Date().getDay();
+		switch (d)
+		{
+			
+case 0:
+x="Today it's Sunday";
+break;
+case 1:
+x="Today it's Monday";
+break;
+case 2:
+    x="Today it's Tuesday";
+    break;
+case 3:
+    x="Today it's Wednesday";
+    break;
+  case 4:
+    x="Today it's Thursday";
+    break;
+  case 5:
+    x="Today it's Friday";
+    break;
+  case 6:
+    x="Today it's Saturday";
+    break;
+}
+document.getElementById("demo").innerHTML=x;
+}
+</script>
+
+
+
+
+
+</body>
+</html>

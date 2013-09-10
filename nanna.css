@@ -1,0 +1,22 @@
+#menu{
+background: black;
+weith: 900px;
+height: 60px;
+padding: 0px 3px 0px 3px;
+font-size: 20px;
+}
+
+#menu li{
+display: inline;
+float: right;
+}
+a:link{
+text-decoration:none;
+}
+#menu a:link{
+color: white;
+}
+
+#menu ul
+
+

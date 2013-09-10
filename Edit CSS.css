@@ -1,0 +1,24 @@
+#menu{
+background: black;
+weith: 900px;
+height: 60px;
+padding: 0px 10px 0px 3px;
+font-size: 20px;
+}
+
+#menu li{
+display: inline;
+float: right;
+} \*tai sao cai #LEARNCHEF lai ko float\
+a:link {
+text-decoration:none;}
+
+#menu a:link{
+color: white;
+}
+
+#menu ul #menu1{
+float: left;
+}
+
+

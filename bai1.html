@@ -1,0 +1,68 @@
+<script type="text/javascript">
+	var hvnsweeting={name:"le chap", age: 23 , hobby:"thich bi danh"}
+
+	document.write(hvnsweeting.name +" "+ hvnsweeting.age  + " tuoi " + hvnsweeting.hobby);
+
+
+</script>
+
+<br>
+
+<script type="text/javascript">
+	function nguoi(ten, tuoi, tinhcach)
+	{
+		this.ten=ten;
+		this.tuoi=tuoi;
+		this.tinhcach=tinhcach;
+		this.thayDoi=thayDoi;
+		
+		function thayDoi(tenmoi)
+		{
+			this.ten=tenmoi;
+		}
+	}
+
+	//var hvnSweeting=new nguoi("le","23","chap");
+	var kimHue=new nguoi("kim",23,"conma");
+	kimHue.thayDoi("Hue");
+
+	//document.write(hvnSweeting.ten +" "+ hvnSweeting.tuoi + " tuoi "+ hvnSweeting.tinhcach + "<br>");
+
+	document.write(kimHue.ten +" "+ kimHue.tuoi + " tuoi "+ kimHue.tinhcach);
+
+
+</script>
+
+<br>
+
+<script type="text/javascript">
+	var xemay={hang:"atila", mau:"trang", loai:"xega" }
+	document.write(" xe may " + xemay.hang +" "+xemay.mau +" "+xemay.loai);
+</script>
+<br>
+
+<script type="text/javascript">
+	function xeMay(tenhang, mauxe, phankhoi)
+	{this.tenhang=tenhang;
+	this.mauxe=mauxe;
+	this.phankhoi=phankhoi;
+	this.doiMau=doiMau;
+	function doiMau(mausac)
+	{
+		this.doiMau=mausac;
+	}	
+	}
+
+	function xeOto(name) {
+		this.name = name;
+
+		function changeName(newname) {
+			this.name=newname;
+		}
+	}
+
+	var xeCuaToi=new xeMay("lalala","do","nho");
+	xeCuaToi.doiMau("tim");
+
+	document.write("xe cua toi "+ xeCuaToi.tenhang+" "+xeCuaToi.doiMau);
+</script>
